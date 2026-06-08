@@ -2,7 +2,7 @@
 """Phase 2 analysis — normalize competitor pricing into a matrix + chart.
 
 Data is curated from the raw Nimble output in data/raw/02-* (extracts + searches),
-with the source URL kept per row for the article's reproducibility.
+with the source URL kept per row for the report's reproducibility.
 
 Outputs:
   data/processed/pricing_matrix.csv
