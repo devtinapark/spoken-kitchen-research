@@ -65,8 +65,8 @@ into a decision" (the two charts) — the DevRel skill set without burying the p
 - [x] Nimble CLI installed + authenticated (standard tier: no `fast`/`--include-answer`)
 - [x] Confirm competitor shortlist (use as-is + Nimble expansion)
 - [x] Phase 1 — landscape
-- [ ] Phase 2 — pricing
-- [ ] Phase 3 — positioning
-- [ ] Phase 4 — ICP
-- [ ] Phase 5 — gaps
-- [ ] Draft article
+- [x] Phase 2 — pricing
+- [x] Phase 3 — positioning
+- [x] Phase 4 — ICP
+- [x] Phase 5 — gaps
+- [x] Draft article
