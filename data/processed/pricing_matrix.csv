@@ -1,0 +1,12 @@
+name,category,model,entry_usd,top_usd,unit,bilingual,voice_input,physical_book,source
+StoryWorth,legacy,subscription,59.0,199.0,year + 1 book,False,False,True,welcome.storyworth.com/storyworth-pricing
+Remento,legacy,subscription,99.0,99.0,year + 1 book,False,True,True,remento.co/pricing
+Storii,legacy,subscription,15.0,15.0,month,False,True,True,storii.com (search)
+CreateMyCookbook,cookbook,one-time-per-book,10.0,20.0,per book,False,False,True,createmycookbook.com/pricing
+Heritage Cookbook,cookbook,freemium+print,0.0,40.0,per book,False,False,True,heritagecookbook.com/pricing
+Mixbook,cookbook,one-time-per-book,15.0,57.0,per book,False,False,True,mixbook.com (search)
+famfood,ai,freemium-sub,6.0,49.0,mo / year,False,True,False,famfood.app (search)
+Culinage,ai,freemium-sub,0.0,49.0,mo / year,False,True,True,culinage.app/pricing
+Otter.ai,ai,saas-utility,8.0,30.0,month,False,False,False,otter.ai/pricing
+DeepL,ai,saas-utility,9.0,69.0,month,True,False,False,deepl.com/pro
+Spoken Kitchen,target,subscription+book,,,year + book,True,True,True,—
