@@ -62,9 +62,9 @@ into a decision" (the two charts) — the DevRel skill set without burying the p
 ## Status
 
 - [x] Workspace scaffolded
-- [ ] Nimble CLI installed + authenticated  ← **BLOCKER**
-- [ ] Confirm competitor shortlist
-- [ ] Phase 1 — landscape
+- [x] Nimble CLI installed + authenticated (standard tier: no `fast`/`--include-answer`)
+- [x] Confirm competitor shortlist (use as-is + Nimble expansion)
+- [x] Phase 1 — landscape
 - [ ] Phase 2 — pricing
 - [ ] Phase 3 — positioning
 - [ ] Phase 4 — ICP
