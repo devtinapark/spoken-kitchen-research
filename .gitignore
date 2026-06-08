@@ -17,4 +17,5 @@ venv/
 
 # large raw dumps (keep processed/curated outputs in git)
 data/raw/*.json
+data/raw/*.md
 !data/raw/.gitkeep
