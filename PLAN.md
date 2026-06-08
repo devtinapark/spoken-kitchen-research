@@ -1,12 +1,13 @@
-# Research Plan — and the article spine
+# Research Plan — and the report spine
 
-The goal is two things at once:
-1. **Real GTM research** I can actually use for Spoken Kitchen.
-2. A **DevRel article** that shows off Nimble's range → gets me hired.
+The goal:
+1. **Real GTM research** I can actually use for Spoken Kitchen. ✅ *done*
+2. A **comprehensive HTML report** that turns the findings into product & marketing
+   decisions — deployable via GitHub Pages (`docs/index.html`).
 
-So every phase below maps a *business question* → a *Nimble capability*. That mapping
-IS the article. Each phase produces a finding file + the raw Nimble output, so the
-article can show "here's the command, here's what came back, here's what I learned."
+So every phase below maps a *business question* → a *Nimble capability*. Each phase
+produces a finding file + the raw Nimble output, and the report synthesizes all of it
+into "here's what the data says, here's the decision."
 
 ## The thesis (what the research must prove)
 
@@ -36,28 +37,29 @@ article can show "here's the command, here's what came back, here's what I learn
 **3. AI transcription + translation**
 - Otter.ai, Rev, Whisper-based tools, DeepL, Google Translate, Notta
 
-## Article structure (draft)
+## Report structure
 
-1. **Hook** — building Spoken Kitchen for my own grandmother; couldn't find who else needed it.
-2. **The problem with manual market research** — slow, stale, gut-feel.
-3. **Setup** — Nimble in ~10 minutes.
-4. **Phase walkthroughs** (1–5 above), each: question → Nimble command → real output → insight.
-5. **The payoff** — the gap map + my actual GTM decisions (ICP, pricing model, positioning).
-6. **Reflection** — what Nimble made trivial that used to take an analyst a week.
+The synthesized deliverable is `docs/index.html` (self-contained, charts embedded,
+GitHub-Pages-ready). Built by `scripts/build_report.py` from the processed data. Sections:
 
-## Reproducibility convention (chosen for the article)
+1. **Executive summary** — the thesis, proven; headline stats + decisions.
+2. **The opportunity** — capability heatmap + the empty-quadrant gap map.
+3. **Phase findings** — landscape, pricing, positioning, customer.
+4. **The decision set** — product + marketing decisions, each with its evidence.
+5. **Risks & watch list** — what could close the gap.
+6. **Methodology** — the reproducible Nimble commands behind every finding.
+
+## Reproducibility convention
 
 Shell-first, with a thin Python analysis layer only where a visual lands the insight:
 
-- `scripts/NN-*.sh` — the exact `nimble` CLI commands per phase. Copy-pasteable; these
-  are what the article shows inline. Each writes raw output to `data/raw/`.
+- `scripts/NN-*.sh` — the exact `nimble` CLI commands per phase. Copy-pasteable; each
+  writes raw output to `data/raw/`.
 - `scripts/analysis/*.py` — pandas, used for exactly two artifacts:
   - `pricing_matrix.py` → normalized competitor pricing table + chart
   - `gap_map.py` → the white-space visual that proves the thesis
+- `scripts/build_report.py` → assembles `docs/index.html` from the processed data.
 - Everything else stays as curated markdown findings in `research/`.
-
-Rationale: shows both "I can drive Nimble" (the CLI commands) and "I can turn data
-into a decision" (the two charts) — the DevRel skill set without burying the product.
 
 ## Status
 
@@ -69,4 +71,4 @@ into a decision" (the two charts) — the DevRel skill set without burying the p
 - [x] Phase 3 — positioning
 - [x] Phase 4 — ICP
 - [x] Phase 5 — gaps
-- [x] Draft article
+- [x] Build HTML report (`docs/index.html`)
