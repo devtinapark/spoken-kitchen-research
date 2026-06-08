@@ -57,7 +57,7 @@ for i in range(m.shape[0]):
                 color="#333", fontsize=11, fontweight="bold")
 # highlight Spoken Kitchen row
 sk = list(df.index).index("Spoken Kitchen")
-ax.add_patch(plt.Rectangle((-0.5, sk-0.5), len(CAPS), 1, fill=False, edgecolor="#c026d3", lw=2.5))
+ax.add_patch(plt.Rectangle((-0.5, sk-0.5), len(CAPS), 1, fill=False, edgecolor="#4f46e5", lw=2.5))
 ax.set_title("Capability coverage — only Spoken Kitchen spans all five", fontsize=12)
 plt.tight_layout()
 p1 = ROOT / "assets/gap_heatmap.png"; plt.savefig(p1, dpi=130); print(f"wrote {p1}")
@@ -69,7 +69,7 @@ fig, ax = plt.subplots(figsize=(8.5, 7))
 cats = {"StoryWorth":"legacy","Remento":"legacy","Storii":"legacy",
         "CreateMyCookbook":"cookbook","Heritage Cookbook":"cookbook","Mixbook":"cookbook",
         "famfood":"ai","Culinage":"ai","Otter.ai":"ai","DeepL":"ai","Spoken Kitchen":"target"}
-col = {"legacy":"#d97706","cookbook":"#2563eb","ai":"#059669","target":"#c026d3"}
+col = {"legacy":"#d97706","cookbook":"#2563eb","ai":"#059669","target":"#4f46e5"}
 rng = np.random.default_rng(7)
 for name in df.index:
     x = emo[name] + rng.uniform(-0.05,0.05)
@@ -80,8 +80,8 @@ for name in df.index:
                zorder=3, marker="*" if big else "o")
     ax.annotate(name, (x, y), xytext=(7,5), textcoords="offset points",
                 fontsize=9, fontweight="bold" if big else "normal")
-ax.axhspan(1.5, 2.3, xmin=0.62, xmax=1.0, color="#c026d3", alpha=0.08, zorder=0)
-ax.text(1.55, 2.15, "WHITE SPACE", color="#c026d3", fontweight="bold", fontsize=11)
+ax.axhspan(1.5, 2.3, xmin=0.62, xmax=1.0, color="#4f46e5", alpha=0.08, zorder=0)
+ax.text(1.55, 2.15, "WHITE SPACE", color="#4f46e5", fontweight="bold", fontsize=11)
 ax.set_xlabel("Emotional / heirloom depth  →", fontsize=10)
 ax.set_ylabel("Voice + bilingual capability  →", fontsize=10)
 ax.set_title("The empty quadrant: emotional heirloom × voice+translation", fontsize=12)
