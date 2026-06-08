@@ -1,9 +1,9 @@
 # Research Plan — and the report spine
 
 The goal:
-1. **Real GTM research** I can actually use for Spoken Kitchen. ✅ *done*
+1. **Real GTM research** for Spoken Kitchen.
 2. A **comprehensive HTML report** that turns the findings into product & marketing
-   decisions — deployable via GitHub Pages (`docs/index.html`).
+   decisions (`docs/index.html`).
 
 So every phase below maps a *business question* → a *Nimble capability*. Each phase
 produces a finding file + the raw Nimble output, and the report synthesizes all of it

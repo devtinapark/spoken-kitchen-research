@@ -2,7 +2,7 @@
 """Build the comprehensive, self-contained HTML GTM report for Spoken Kitchen.
 
 Reads the processed CSVs and the chart PNGs, embeds the images as base64 data URIs,
-and writes a single shareable, deployable file: docs/index.html (GitHub Pages root).
+and writes a single self-contained file: docs/index.html.
 """
 from pathlib import Path
 import base64, csv
@@ -461,7 +461,7 @@ HTML = f"""<!doctype html>
 </html>
 """
 
-# Deploy target: docs/ is a one-click GitHub Pages source on the main branch.
+# Output to docs/ so the report can be browsed straight from the repo.
 out = ROOT / "docs/index.html"
 out.parent.mkdir(parents=True, exist_ok=True)
 out.write_text(HTML)

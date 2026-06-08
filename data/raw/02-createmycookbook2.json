@@ -1,0 +1,66 @@
+{
+  "total_results": 5,
+  "results": [
+    {
+      "title": "Custom Cookbook Pricing",
+      "description": "Custom Cookbook Pricing. No minumum quantities. eCookbook $9.94 / book Next price break at 5 books ($7.96) Details Softcover Perfectbound $19.95 / book",
+      "url": "https://createmycookbook.com/books/pricing?srsltid=AfmBOoojxJYqU2-2Eet7_0_ExG7HUhBG4dBubPzBbr-TdAHrMEyrbpuv",
+      "content": "",
+      "metadata": {
+        "position": 1,
+        "entity_type": "OrganicResult",
+        "country": "US",
+        "locale": "en"
+      }
+    },
+    {
+      "title": "Wire-O Soft Cover",
+      "description": "Pricing is based on the number of pages (black and white and color), binding style, and quantity. Photo pages, conversion chart pages, title pages, publisher...",
+      "url": "https://createmycookbook.com/book_bindings/975scwo/details?srsltid=AfmBOorKlOniF6vpLpoSN7HU0LP_q3GB8hxtRGgLHuy7Mne3jcgDM8im",
+      "content": "",
+      "metadata": {
+        "position": 2,
+        "entity_type": "OrganicResult",
+        "country": "US",
+        "locale": "en"
+      }
+    },
+    {
+      "title": "How much does my cookbook cost?",
+      "description": "Nov 3, 2022 — Orders of 20 books or more qualify for a quantity discount. Here is a quick video tutorial on using the Pricing Calculator: https://youtu.be/...",
+      "url": "https://support.createmycookbook.com/hc/en-us/articles/115012239807-How-much-does-my-cookbook-cost",
+      "content": "",
+      "metadata": {
+        "position": 3,
+        "entity_type": "OrganicResult",
+        "country": "US",
+        "locale": "en"
+      }
+    },
+    {
+      "title": "Should I create my own cookbook?",
+      "description": "$14.99 for a book or $9.99 for an ebook? Yes! For the price of a hot date for two at McDonalds (or less for the Kindle), you get 30 high-protein...",
+      "url": "https://www.facebook.com/groups/350182015810405/posts/381544819340791/",
+      "content": "",
+      "metadata": {
+        "position": 4,
+        "entity_type": "OrganicResult",
+        "country": "US",
+        "locale": "en"
+      }
+    },
+    {
+      "title": "Softcover Perfectbound",
+      "description": "Pricing is based on the number of pages (black and white and color), binding style, and quantity. Photo pages, conversion chart pages, title pages, publisher...",
+      "url": "https://createmycookbook.com/book_bindings/975pbcb/details?srsltid=AfmBOooQr2mlCSXjaTctgyVYublk8ZNneGtSvX8zgLVdvkCz8g7pBaEw",
+      "content": "",
+      "metadata": {
+        "position": 5,
+        "entity_type": "OrganicResult",
+        "country": "US",
+        "locale": "en"
+      }
+    }
+  ],
+  "request_id": "a638b8ce-a944-4590-9f8e-c28d611a2aff"
+}
