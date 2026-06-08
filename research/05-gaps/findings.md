@@ -70,7 +70,7 @@ heirloom-recipe use case.** This is the moat, because it's:
 | **Channel** | Community-led (Reddit / FB heritage & recipe groups), not SEM | Where the ICP already congregates (Phase 4) |
 | **Watch list** | famfood, Culinage (voice→recipe movers) | Closest adjacent, but neither bilingual (Phase 1) |
 
-## One-line summary for the article
+## One-line summary for the report
 
 **Three crowded markets, one empty intersection — and the empty cell is the translation
 column. Nimble found it, sized it, and named the customer in an afternoon.**
